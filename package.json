@@ -1,0 +1,28 @@
+{
+  "name": "marklogic-logger",
+  "version": "1.0.4",
+  "description": "Tail MarkLogic logs in style",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha test --timeout 4000 --recursive --ignore-leaks"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cgood92/marklogic-logger.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cgood92/marklogic-logger/issues"
+  },
+  "homepage": "https://github.com/cgood92/marklogic-logger#readme",
+  "author": "",
+  "license": "ISC",
+  "bin": {
+    "marklogic-logger": "./index.js"
+  },
+  "dependencies": {
+    "colors": "^1.1.2",
+    "mocha": "^3.1.2",
+    "should": "^11.1.1"
+  }
+}
